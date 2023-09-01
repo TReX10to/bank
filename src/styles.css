@@ -1,1 +1,187 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.navbar{
+  background-color: rgb(59, 134, 240);
+ 
+}
+.navbar-brand{
+  color:azure;
+}
+.head2{
+  background-color:coral;
+  color:azure;
+  width:15%;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.lginimg{
+  float:right;
+  width:420px;
+  height:285px;
+  margin-top: 150px;
+  margin-right:30px;
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+h1 {
+  letter-spacing: 1.5vw;
+  font-family: 'system-ui';
+  text-transform: uppercase;
+  text-align: center;
+}
+main {
+  position :relative;
+  left:20%;
+  top:80px;
+  height: 75vh;
+  width: 100%;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png) no-repeat center center;
+  background-size: cover;
+}
+.form_class {
+  width: 500px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: rgb(232, 206, 246);
+  font-family: 'system-ui';
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+  color:rgb(59, 134, 240);
+}
+.form_div {
+  text-transform: uppercase;
+}
+.form_div > label {
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+.info_div {
+  text-align: center;
+  margin-top: 20px;
+}
+.info_div {
+  letter-spacing: 1px;
+}
+.field_class {
+  width: 100%;
+  border-radius: 6px;
+  border-color: aqua;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 0px;
+  text-indent: 6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'system-ui';
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color:aquamarine;
+}
+.submit_class {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #FFE6D4;
+  padding: 8px 20px;
+  font-family: 'system-ui';
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+  cursor: pointer;
+}
+footer {
+  height: 5vh;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  background-color: rgb(59, 134, 240);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px -5px 10px rgb(0,0,0,0.3);
+}
+footer > p {
+  text-align: center;
+  font-family: 'system-ui';
+  letter-spacing: 3px;
+}
+footer > p > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.suhead{
+  margin-left:30%;
+  margin-bottom: 25px;
+}
+.hpbtn{
+  display: flex;
+ 
+  position: relative;
+  left:-117px;
+  margin-left: 0;
+  width:20%;
+  height:90px;
+  padding-left: 70px;
+  padding-top:30px;
+  border-color: azure;
+  color:azure;
+  background-color: rgb(59, 134, 240);
+  
+}
+.blspace{
+  height:122px;
+}
+.rsdiv{
+position: absolute;
+left: 259px;
+top:51px;
+height:660px;
+background-color: rgb(241, 227, 253);
+width:1300px;
+
+}
+.hphead3{
+  text-align: center;
+  margin-top: 30px;
+ color: rgb(59, 43, 174);
+}
+.hphead4{
+text-align: center;
+margin-top: 40px;
+color: rgb(59, 43, 174);
+}
+.hppara{
+  margin-top: 30px;
+text-align: center;
+}
+.sbi{
+  color: rgb(255, 209, 93);
+}
+.form-control{
+margin-top: 20px;
+}
+
+.btn-footer{
+  border-radius: 8px;
+  color:azure;
+  width:50px;
+  border-color:azure;
+   background-color:rgb(59, 134, 240) ;
+   margin-top: 50px;
+   margin-left: 325px;
+}
