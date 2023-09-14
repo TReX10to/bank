@@ -10,16 +10,17 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   data="new one";
   data2="Enter Account Number"
-  Login(){
-    alert("login clicked")
-  }
-  acnoChange(event:any){
-      
-    console.log(event.target.value)
-  }
-  passChange(event:any){
+  acno:string=""
+  psd:string=""
+ 
+  Login(a:any,b:any){
+   this.acno=a.value
+   this.psd=b.value
+   console.log(this.acno)
+   console.log(this.psd)
 
-    console.log(event.target.value)
+
 
   }
+ 
 }
