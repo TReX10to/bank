@@ -4,26 +4,26 @@
       <title>Login Form Design | CodeLab</title>
    </head>
    <body>
-<h1>{{data}}</h1>
+    <div class="bg">
+
     <div class="head2">
         <p >
         Enjoy Safe Banking With us ...</p>
         </div>
-<img class="lginimg" src="https://i.postimg.cc/431G86Gq/Bank-PO.png" alt="">
          <main>
              <form id="login_form" class="form_class" action="login/login-access.php" method="post">
                  <div class="form_div">
                      <label>Account Number</label>
-                     <input #acno id="accno"class="field_class" name="login_txt" type="text" [placeholder]="data2" autofocus>
+                     <input [(ngModel)]="acno" id="accno"class="field_class" name="login_txt" type="text" [placeholder]="data2" autofocus>
                      <label>Password</label>
-                     <input #psd id="pass" class="field_class" name="password_txt" type="password" placeholder="Enter your password">
-                     <button (click)="Login(acno,psd)" class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">Login</button>
+                     <input [(ngModel)]="psd" id="pass" class="field_class" name="password_txt" type="password" placeholder="Enter your password">
+                     <button (click)="Login()" class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">Login</button>
                  </div>
                  <div class="info_div">
-                     <p>Dont have an account ? <a href="register/reg-form.php">Create account</a></p>
+                     <p>Dont have an account ? <a href="signup">Create account</a></p>
                  </div>
              </form>
          </main>
-        
+        </div>
    </body>
 </html>
